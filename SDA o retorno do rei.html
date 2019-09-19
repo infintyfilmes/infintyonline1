@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<br /><html><head>
+  <meta charset="UTF-8">
+  <title>O Senhor dos aneis o retorno do rei</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <!-- <link rel="icon" type="image/x-icon" href="static/favicon.ico"> -->
+  <meta name="theme-color" content="#e80000">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+  body{
+    font-family: Verdana, sans-serif;
+    margin:10px;
+    padding-bottom:60px; /* bottom fixed navbar padding */
+    background:url(https://image.tmdb.org/t/p/original/miKdYbVvmbwjxT9QFqZrGByhEBq.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn:focus {
+  outline: none !important;
+}
+.iframePlayer{
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.changeServer{
+    position:absolute;
+    top:7px;
+    right:7px;
+    z-index:99999;
+    font-weight:bold;
+    opacity: 0;
+    visibility: hidden;
+    background: rgb(15,39,88, 0.3);
+    border:none;
+     -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+.iframePlayer:hover > .changeServer{
+    visibility: visible;
+    opacity: 1;
+}
+#iframeVideo{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 9999;
+    width:100%;
+    height:100%;
+    margin:0;
+    border:none;
+    padding:none;
+    background: #000 url(/loading.gif) no-repeat center center fixed;
+}
+.player{
+    width:100%;
+}
+.playerContent{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:25%;
+}
+.playerLogo{
+    width:243px;
+    height: 38px;
+    margin:auto;
+    background:url(/logo-2x.png)no-repeat;
+    background-size: contain;
+}
+.playerLogo:hover{
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-filter: drop-shadow(0px 0px 30px #0f2758);
+  /* Chrome, Safari, Opera */
+  filter: drop-shadow(0px 0px 30px #0f2758);
+}
+.playerTagline{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding:10px;
+    color:#fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+.playerButtons{
+    float:none;
+    margin:auto;
+    text-align: center;
+}
+.playerButtons .btn{
+    float:none;
+    margin:auto;
+    margin-top:5px;
+    font-weight: bold;
+    border:1px solid black;
+    /* background: rgba(201,48,44,0.8); */
+    background:#b6221d;
+    opacity:0.8;
+}
+.playerButtons .btn:hover{
+    /* background: #FF150F; */
+    opacity:1;
+}
+#playerAdBtns{
+    color:white !important;
+    float:none; 
+    text-align: center;
+    margin:auto;
+}
+#playerAdBtns .btn{
+    float:none;
+    margin:auto;
+    font-weight: bold;
+}
+.playerFooter{
+    padding:5px;
+    background:rgba(0,0,0,0.6);
+}
+@media only screen and (max-width: 600px) {
+    .playerFooter{
+        display:none;
+    }
+    .playerContent{
+        bottom:5%;
+        overflow:scroll;
+    }
+}
+  </style>
+</head>
+<body>
+<div class="iframePlayer">
+    <button type="button" class="changeServer btn btn-xs btn-primary">Mudar Servidor <span class="glyphicon glyphicon-random"></span> </button>
+    <iframe id="iframeVideo" name="iframeVideo" allowfullscreen=""></iframe>
+</div>
+<div class="container-fluid player">
+    <div class="playerContent">
+        <a href="#" alt="FilmesOnlineHD1X" title="FilmesOnlineHD1X" target="_blank">
+            <div class="playerLogo"></div>
+        </a>
+        <div class="playerTagline">Escolha um Servidor Para Assistir</div>
+        <div class="playerButtons">
+            <!-- buttons autoloaded here -->
+        
+    </div> <!-- Player Content -->
+
+      
+      
+      <!-- <script>var adParams = {s: 1000223562, w: 234, h: 60, c: 1, blank: true}; </script><script src="//js.srcsmrtgs.com/js/ad.js"></script> -->
+      <!-- <script>var adParams = {s: 1000284872, w: 468, h: 60, c: 1, blank: true}; </script><script src="//js.srcsmrtgs.com/js/ad.js"></script> -->
+      <!-- <script type="text/javascript" src="https://toro-tags.com/_tags/jstags.js?s=br/filmesonlinehd11/46860"></script> -->
+      <!-- <script>var adParams = {s: 1000344580, w: 468, h: 60, c: 1, blank: false}; </script><script src="//go.traqueto.com/js/ad.js"></script> -->
+<!-- <div id="1000344580"></div>
+<center><a href="https://goo.gl/nRmgid" target="_blank"><img src="https://3.bp.blogspot.com/-g8qshDtHKhM/Vs7LdW-gbwI/AAAAAAAACQM/MDwMMZLDuaUXwvR17b-S_Dk32qq5NdukgCPcBGAYYCw/s1600/bannervermelhonovo.png"  /></a>
+<a href="https://goo.gl/nRmgid" target="_blank"> <img src="https://4.bp.blogspot.com/-o88fPg5wLaQ/WEb2Br-h9pI/AAAAAAAACZo/Qprk8VLCZ0oxO0L7PvlsXkJMAhR6P-W0QCPcBGAYYCw/s1600/baixar_vermelho_f.png"  /></a></center>
+
+<script type="text/javascript" src="//dolohen.com/apu.php?zoneid=1862194"></script> -->
+<!-- <div id="1000357226"></div>
+<script>
+window.smrtSB=window.smrtSB||{sections:[]},window.smrtSB.sections.push({s:1000357226,w:468,h:60,c:1, blank: false,cross: true}),window.smrtSB.s||(window.smrtSB.s=document.createElement("script"),window.smrtSB.s.src="//js.srcsmrtgs.com/js/"+btoa(37*Math.round((899999*Math.random()+1e5)/37))+".js",window.smrtSB.s.async=!0,document.head.appendChild(window.smrtSB.s));
+</script> -->
+<!-- <script type="text/javascript" src="https://tagbucket.cc/_tags/jstags.js?s=br/filmesonlinehd7/46860"></script> -->
+      <!-- <script type="text/javascript" src="https://toro-tags.com/_tags/jstags.js?s=br/filmesonlinehd11/23460"></script> -->
+    <!-- <button type="button" class="btn btn-lg btn-danger">Assistir em HD <span class="glyphicon glyphicon-play"></span> </button>
+    <button type="button" class="btn btn-lg btn-danger">Baixar Agora <span class="glyphicon glyphicon-save"></span> </button> -->
+  </div>
+</nav>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function extractHostname(url) {
+    var hostname;
+    //find & remove protocol (http, ftp, etc.) and get hostname
+
+    if (url.indexOf("://") > -1) {
+        hostname = url.split('/')[2];
+    }
+    else {
+        hostname = url.split('/')[0];
+    }
+
+    //find & remove port number
+    hostname = hostname.split(':')[0];
+    //find & remove "?"
+    hostname = hostname.split('?')[0];
+
+    return hostname;
+}
+function extractRootDomain(url) {
+    var domain = extractHostname(url),
+        splitArr = domain.split('.'),
+        arrLen = splitArr.length;
+
+    //extracting the root domain here
+    //if there is a subdomain 
+    if (arrLen > 2) {
+        domain = splitArr[arrLen - 2] + '.' + splitArr[arrLen - 1];
+        //check to see if it's using a Country Code Top Level Domain (ccTLD) (i.e. ".me.uk")
+        if (splitArr[arrLen - 2].length == 2 && splitArr[arrLen - 1].length == 2) {
+            //this is using a ccTLD
+            domain = splitArr[arrLen - 3] + '.' + domain;
+        }
+    }
+    return domain;
+}
+
+var links=[{"Nome":"Assistir Por VeryStream","Url":"https:\/\/woof.tube\/e\/VYTfmBj8GGT\/","Legenda":"","Tipo":"1"}];$.each(links, function (key, data) {
+    $('.playerButtons').append('<button type="button" class="btn btn-sm btn-primary">'+data.Nome+'</button> ');
+})
+
+$(".playerButtons .btn").click(function(){
+    buttonIndex = $(this).index();
+    var iframe = $("#iframeVideo");
+    var url = links[buttonIndex].Url;
+    var videohosts = ["apollocdn.cc", "moonwalk.cc", "streamguard.cc", "alfastream.cc", "actelecup.com"]
+    var parser = document.createElement('a');
+    parser.href = url
+    if(videohosts.includes(parser.hostname)){
+        // console.log('culprit')
+        // var newUrl = 'https://streamguard.cc'+parser.pathname+parser.search+parser.hash
+        var newUrl = 'https://akugyash.com'+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl); 
+    }
+    else if(parser.hostname=='openload.co'){
+        var newUrl = 'https://oload.stream'+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl); 
+                    }
+    else if(parser.hostname=='oload.stream'){
+        var newUrl = 'https://oload.club'+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl); 
+    }
+    else if(parser.hostname=='thevid.net'){
+        var newUrl = 'https://thevid.tv'+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl); 
+         }
+    else if(parser.hostname=='thevid.tv'){
+        var newUrl = 'https://thevid.live'+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl); 
+          }
+    else if(parser.hostname=='www.fembed.com'){
+        var newUrl = 'https://vcdn.io'+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl); 
+    }
+    else if(parser.hostname=='verystream.com'){
+        var newUrl = 'https://woof.tube'+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl); 
+    }
+    else if(parser.protocol=='http:'){
+        var newUrl = 'https://'+parser.hostname+parser.pathname+parser.search+parser.hash
+        iframe.attr("src", newUrl)
+    }
+    else{
+        iframe.attr("src", url); 
+    }
+    $(".iframePlayer").css("display", "block");
+});
+$(".changeServer").click(function(){
+    var iframe = $("#iframeVideo");
+    iframe.attr("src", ""); 
+    $(".iframePlayer").css("display", "none");
+});
+
+/*]]>*/
+</script>
+<script type='text/javascript' src='https://toroadvertisingmedia.com/js/show_ads_toroadv.js?pubId=8744'></script> -->
+<!-- <script type="text/javascript" src="//drylnk.com/apu.php?zoneid=1540573"></script> -->
+<!-- <script type='text/javascript' src='https://h5tjj3loy2.com/65/2c/65/652c65b0c29c0dffd0f40d1df319bfd7.js'></script> -->
+<!-- <script type="text/javascript" src="//higheurest.com/apu.php?zoneid=1540573"></script> -->
+
+
+</div></body></html>
