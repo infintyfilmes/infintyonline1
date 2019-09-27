@@ -11,11 +11,11 @@ gulp.task('sass', compilasass);
 
 function compilasass(){
     return gulp
-      .src("sass/*.scss")
+      .src("sass/*.sass")
       .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
       .pipe(gulp.dest("css"));
 }
 
 function watch() {
-    gulp.watch("sass/*.scss", compilasass)
+    gulp.watch("sass/*.sass", compilasass)
 }
